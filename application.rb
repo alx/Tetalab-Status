@@ -21,3 +21,7 @@ end
 get '/' do
   erb :root
 end
+
+get '/status.json' do
+  erb :root
+end
